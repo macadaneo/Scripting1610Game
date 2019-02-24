@@ -5798,10 +5798,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Name: Hawk
+  FurCount: 10000
+  EatingSpeed: 0.4
+  CanEat: 1
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
   SkinColor: {r: 1, g: 0.886836, b: 0.6745283, a: 0}
   EyeColor: {r: 0, g: 0, b: 0, a: 0}
-  health: {fileID: 0}
-  speed: {fileID: 0}
+  Health: {fileID: 0}
+  Speed: {fileID: 0}
+  CanMove: 0
   PrimaryFeatherColor: {r: 0.6509434, g: 0.07691664, b: 0.04605731, a: 0}
   SecondaryFeatherColor: {r: 1, g: 0.95789963, b: 0.7877358, a: 0}
 --- !u!212 &1381361105
@@ -5955,16 +5964,37 @@ MonoBehaviour:
   m_GameObject: {fileID: 1528843091}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cf6d0c00f1233c644a3f812973812cfd, type: 3}
+  m_Script: {fileID: 11500000, guid: 5e62e29318bc3ed44a82d385fe76c436, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Name: Yakul
-  SkinColor: {r: 0.9056604, g: 0.77527666, b: 0.5938057, a: 0}
-  EyeColor: {r: 0.2971698, g: 0.41297272, b: 1, a: 0}
-  health: {fileID: 0}
-  speed: {fileID: 0}
-  PrimaryHairColor: {r: 0.9245283, g: 0.5127875, b: 0.34451762, a: 0}
-  SecondaryHairColor: {r: 0.9433962, g: 0.88547075, b: 0.7253471, a: 0}
+  FurCount: 10000
+  EatingSpeed: 0.4
+  CanEat: 1
+  Event:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1528843091}
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  SkinColor: {r: 1, g: 0.74741405, b: 0.4481132, a: 0}
+  EyeColor: {r: 0.17123532, g: 0.48735794, b: 0.9811321, a: 0}
+  Health: {fileID: 11400000, guid: 4cc30bb56c8f18e4baeec10d0487b315, type: 2}
+  Speed: {fileID: 11400000, guid: 6df459d853e9c2e4a93dd6ab1da0ff19, type: 2}
+  CanMove: 1
+  PrimaryHairColor: {r: 0.9056604, g: 0.42772448, b: 0.14097545, a: 1}
+  SecondaryHairColor: {r: 1, g: 0.90061826, b: 0.7216981, a: 0}
+  AntlerColor: {r: 0.6226415, g: 0.31629413, b: 0.07929868, a: 0}
 --- !u!1 &1763883021
 GameObject:
   m_ObjectHideFlags: 0
