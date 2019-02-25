@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\dceri\.Rider2018.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\dceri\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_Scripting1610Game.-1699671621.00" t="ExcludeRecursive" />
-    <e p="C:\Users\dceri\Desktop\UVU Spring 2019\Scripting 1610\Scripting1610Game\Scripting1610Game" t="IncludeRecursive">
+    <e p="C:\Users\10721110\.Rider2018.1\system\resharper-host\local\Transient\ReSharperHost\v12\SolutionCaches\_Scripting1610Game.-1555173195.00" t="ExcludeRecursive" />
+    <e p="C:\Users\10721110\Documents\Scripting1610Game\Scripting1610Game" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="GameValues" t="Include">
@@ -13,6 +12,7 @@
           <e p="animal.cs" t="Include" />
           <e p="Behaviors.cs" t="Include" />
           <e p="Bird.cs" t="Include" />
+          <e p="Conditionals.cs" t="Include" />
           <e p="Deer.cs" t="Include" />
           <e p="Mamal.cs" t="Include" />
           <e p="MonoEvents.cs" t="Include" />
