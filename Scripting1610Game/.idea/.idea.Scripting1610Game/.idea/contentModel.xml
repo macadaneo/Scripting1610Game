@@ -11,12 +11,15 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="animal.cs" t="Include" />
+          <e p="Behaviors.cs" t="Include" />
           <e p="Bird.cs" t="Include" />
           <e p="Deer.cs" t="Include" />
           <e p="Mamal.cs" t="Include" />
           <e p="MonoEvents.cs" t="Include" />
           <e p="PowerUpBase.cs" t="Include" />
           <e p="SpaceShipEvent.cs" t="Include" />
+          <e p="Updating.cs" t="Include" />
+          <e p="WindmillRotation.cs" t="Include" />
         </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />
