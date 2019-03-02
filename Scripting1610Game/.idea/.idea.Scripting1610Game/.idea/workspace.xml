@@ -135,12 +135,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/LightSwitch.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+            <state relative-caret-position="323">
+              <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
               <folding>
-                <marker date="1551506138194" expanded="false" signature="6:78" ph="..." />
-                <marker date="1551506138194" expanded="true" signature="236:381" ph="{...}" />
-                <marker date="1551506138194" expanded="true" signature="266:375" ph="{...}" />
+                <marker date="1551506318821" expanded="false" signature="6:78" ph="..." />
+                <marker date="1551506318821" expanded="true" signature="146:510" ph="{...}" />
+                <marker date="1551506318821" expanded="true" signature="233:507" ph="{...}" />
+                <marker date="1551506318821" expanded="true" signature="263:376" ph="{...}" />
+                <marker date="1551506318821" expanded="true" signature="389:501" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -289,12 +291,12 @@
       <updated>1550721116051</updated>
       <workItem from="1550721124419" duration="1427000" />
       <workItem from="1550724092647" duration="3631000" />
-      <workItem from="1551497283817" duration="4968000" />
+      <workItem from="1551497283817" duration="5215000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20156000" />
+    <option name="totallyTimeSpent" value="20403000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -307,7 +309,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="4818" y="6" width="741" height="1016" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26284876" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -469,6 +470,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SpaceShipEvent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+          <folding>
+            <marker date="1550722102518" expanded="false" signature="6:104" ph="..." />
+            <marker date="1550722102518" expanded="true" signature="149:256" ph="{...}" />
+            <marker date="1550722102518" expanded="true" signature="218:254" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Deer.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -482,26 +495,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SpaceShipEvent.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-          <folding>
-            <marker date="1550722102518" expanded="false" signature="6:104" ph="..." />
-            <marker date="1550722102518" expanded="true" signature="149:256" ph="{...}" />
-            <marker date="1550722102518" expanded="true" signature="218:254" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/LightSwitch.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        <state relative-caret-position="323">
+          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
           <folding>
-            <marker date="1551506138194" expanded="false" signature="6:78" ph="..." />
-            <marker date="1551506138194" expanded="true" signature="236:381" ph="{...}" />
-            <marker date="1551506138194" expanded="true" signature="266:375" ph="{...}" />
+            <marker date="1551506318821" expanded="false" signature="6:78" ph="..." />
+            <marker date="1551506318821" expanded="true" signature="146:510" ph="{...}" />
+            <marker date="1551506318821" expanded="true" signature="233:507" ph="{...}" />
+            <marker date="1551506318821" expanded="true" signature="263:376" ph="{...}" />
+            <marker date="1551506318821" expanded="true" signature="389:501" ph="{...}" />
           </folding>
         </state>
       </provider>
