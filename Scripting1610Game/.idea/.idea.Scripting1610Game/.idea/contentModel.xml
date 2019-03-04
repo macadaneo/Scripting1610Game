@@ -14,6 +14,7 @@
           <e p="Bird.cs" t="Include" />
           <e p="Conditionals.cs" t="Include" />
           <e p="Deer.cs" t="Include" />
+          <e p="LightSwitch.cs" t="Include" />
           <e p="Mamal.cs" t="Include" />
           <e p="MonoEvents.cs" t="Include" />
           <e p="PowerUpBase.cs" t="Include" />
