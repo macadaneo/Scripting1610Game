@@ -5,7 +5,7 @@ using UnityEngine.Events;
 
 public class LightSwitch : MonoBehaviour
 {
-    public UnityEvent Event;
+    public UnityEvent OnEvent,OffEvent;
 
     public bool DinnerTime;
 
@@ -14,12 +14,12 @@ public class LightSwitch : MonoBehaviour
         if (DinnerTime)
         {
             GetComponent<SpriteRenderer>().color = Color.yellow;
-            Event.Invoke();
+            OnEvent.Invoke();
         }
         else
         {
             GetComponent<SpriteRenderer>().color = Color.black;
-            Event.Invoke();
+            OffEvent.Invoke();
         }
     }
 

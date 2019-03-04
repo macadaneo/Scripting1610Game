@@ -17,6 +17,10 @@
           <e p="LightSwitch.cs" t="Include" />
           <e p="Mamal.cs" t="Include" />
           <e p="MonoEvents.cs" t="Include" />
+          <e p="MoveBase.cs" t="Include" />
+          <e p="MoveCharacter.cs" t="Include" />
+          <e p="MoveSingleJump.cs" t="Include" />
+          <e p="MoveWithAccess.cs" t="Include" />
           <e p="PowerUpBase.cs" t="Include" />
           <e p="SpaceShipEvent.cs" t="Include" />
           <e p="Updating.cs" t="Include" />
