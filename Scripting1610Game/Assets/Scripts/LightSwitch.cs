@@ -5,21 +5,23 @@ using UnityEngine.Events;
 
 public class LightSwitch : MonoBehaviour
 {
-    public UnityEvent OnEvent,OffEvent;
+    ParticleSystem CampFire;
+    public bool DinnerTime = false;
 
-    public bool DinnerTime;
+    private void Start()
+    {
+        CampFire.Stop();
+    }
 
     private void Update()
     {
-        if (DinnerTime)
+        if (DinnerTime == true)
         {
-            GetComponent<SpriteRenderer>().color = Color.yellow;
-            OnEvent.Invoke();
+           CampFire.Play();
         }
         else
         {
-            GetComponent<SpriteRenderer>().color = Color.black;
-            OffEvent.Invoke();
+            CampFire.Stop();
         }
     }
 
