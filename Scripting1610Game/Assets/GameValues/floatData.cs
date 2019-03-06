@@ -4,7 +4,7 @@ using UnityEngine;
 [CreateAssetMenu]
 public class floatData : ScriptableObject
 {
-    [SerializeField] private float value;
+    [SerializeField] private float value = 10;
 
     public float Value
     {
