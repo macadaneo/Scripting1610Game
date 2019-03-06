@@ -6,9 +6,9 @@ using UnityEngine.Events;
 
 public class MonoEvents : MonoBehaviour
 {
-    public UnityEvent StartEvent, EnableEvent, MouseDownEvent, UpdateEvent;
+    public UnityEvent StartEvent, EnableEvent, MouseDownEvent, UpdateEvent, TriggerEnterEvent;
     
-    void Start()
+    private void Start()
     {
         StartEvent.Invoke();
     }

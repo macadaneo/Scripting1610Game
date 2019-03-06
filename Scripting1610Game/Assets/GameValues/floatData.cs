@@ -4,5 +4,21 @@ using UnityEngine;
 [CreateAssetMenu]
 public class floatData : ScriptableObject
 {
-    public float Value;
+    [SerializeField] private float value;
+
+    public float Value
+    {
+        get { return value;}
+        set { this.value = value; }
+    }
+
+    public void UpdateValue(float floatInput)
+    {
+        Value += floatInput;
+    }
+
+    public void UpdateValue(floatData dataObj)
+    {
+        Value += dataObj.Value;
+    }
 }
