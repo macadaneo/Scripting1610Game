@@ -5647,16 +5647,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a884ce7c9360bb841a635dc17bab840c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnEvent:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  OffEvent:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   DinnerTime: 0
 --- !u!1 &869696811
 GameObject:
@@ -5914,7 +5904,7 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: 10
+          m_FloatArgument: 0.1
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2

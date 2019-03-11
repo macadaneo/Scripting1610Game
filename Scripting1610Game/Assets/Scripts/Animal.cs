@@ -18,7 +18,7 @@ public class Animal : MonoBehaviour
     
     public void Move()
     {
-        print();
+        print("Saadan");
     }
 
     private void Start()
