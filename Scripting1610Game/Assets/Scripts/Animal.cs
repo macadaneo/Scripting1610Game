@@ -15,6 +15,11 @@ public class Animal : MonoBehaviour
     public floatData Health;
     public floatData Speed;
     public bool CanMove;
+    
+    public void Move()
+    {
+        print();
+    }
 
     private void Start()
     {

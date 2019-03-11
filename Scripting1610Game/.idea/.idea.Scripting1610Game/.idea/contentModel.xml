@@ -23,7 +23,9 @@
           <e p="MoveSingleJump.cs" t="Include" />
           <e p="MoveWithAccess.cs" t="Include" />
           <e p="PowerUpBase.cs" t="Include" />
+          <e p="ReturnFunctions.cs" t="Include" />
           <e p="SpaceShipEvent.cs" t="Include" />
+          <e p="UpdateBar.cs" t="Include" />
           <e p="Updating.cs" t="Include" />
           <e p="WindmillRotation.cs" t="Include" />
         </e>
