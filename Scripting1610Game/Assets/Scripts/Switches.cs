@@ -1,18 +1,36 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Switches : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    
+    public enum States
     {
-        
+        Starting,
+        Playing,
+        Dying,
+        Ending
     }
 
-    // Update is called once per frame
-    void Update()
+    public States CurrentState;
+
+
+    private void Update()
     {
-        
+        switch (CurrentState)
+        {
+            case States.Starting:
+                break;
+            case States.Playing:
+                break;
+            case States.Ending:
+                break;
+            case States.Dying:
+                break;
+            default:
+                throw new ArgumentOutOfRangeException();
+        }
     }
 }
