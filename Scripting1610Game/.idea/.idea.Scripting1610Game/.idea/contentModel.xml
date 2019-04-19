@@ -15,6 +15,7 @@
           <e p="Bird.cs" t="Include" />
           <e p="Collection.cs" t="Include" />
           <e p="Conditionals.cs" t="Include" />
+          <e p="Counter.cs" t="Include" />
           <e p="Deer.cs" t="Include" />
           <e p="FunctionWithParams.cs" t="Include" />
           <e p="LightSwitch.cs" t="Include" />
