@@ -25,6 +25,7 @@
           <e p="MoveCharacter.cs" t="Include" />
           <e p="MoveSingleJump.cs" t="Include" />
           <e p="MoveWithAccess.cs" t="Include" />
+          <e p="PoeController.cs" t="Include" />
           <e p="PowerUpBase.cs" t="Include" />
           <e p="ReturnFunctions.cs" t="Include" />
           <e p="RunAnim.cs" t="Include" />
