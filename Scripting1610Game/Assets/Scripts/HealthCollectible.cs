@@ -4,24 +4,18 @@ using UnityEngine;
 
 public class HealthCollectible : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void OnTriggerEnter(Collider other)
-    {
+   void OnTriggerEnter(Collider other)
+   {
         PoeController controller = other.GetComponent<PoeController>();
-
-        if (controller!= null)
+   
+        if (controller != null)
         {
-            if (controller.currentHealth < controller.maxHealth)
+            if(controller.health < controller.maxHealth)
             {
-                controller.currentHealth(1);
-                Destroy(gameObject);
-            }
+   			controller.ChangeHealth(1);
+   			Destroy(gameObject);
+			}
         }
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+   }
 }
+
