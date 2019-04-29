@@ -63,6 +63,7 @@ public class PoeController : MonoBehaviour
           
           currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
           Debug.Log(currentHealth + "/" + maxHealth);
+          UIHealthBar.instance.SetValue(currentHealth / (float) maxHealth);
         }
 
         public void Launch()

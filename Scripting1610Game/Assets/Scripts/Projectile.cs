@@ -19,7 +19,23 @@ public class Projectile : MonoBehaviour
 
     private void OnCollisionEnter(Collision other)
     {
+        EnemyController e = other.collider.GetComponent<EnemyController>();
+        if (e != null)
+        {
+            e.Dead();
+        }
+        
+        Destroy(gameObject);
+        
         Debug.Log("Projectile Collision with " + other.gameObject);
         Destroy(gameObject);
+    }
+
+    private void Update()
+    {
+        if (transform.position.magnitude > 1000.0f)
+        {
+            Destroy(gameObject);
+        }
     }
 }

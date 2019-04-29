@@ -7,6 +7,8 @@ public class EnemyController : MonoBehaviour
     public float speed = 3.0f;
     public bool vertical;
     public float changeTime = 3.0f;
+    public bool alive = true;
+    public ParticleSystem smokeEffect;
 
     new Rigidbody rigidbody;
     float timer;
@@ -22,6 +24,11 @@ public class EnemyController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (!alive)
+        {
+            return;
+        }
+        
         timer -= Time.deltaTime;
 
         if (timer < 0)
@@ -54,4 +61,10 @@ public class EnemyController : MonoBehaviour
             player.ChangeHealth(-1);
         }
     }
+
+     public void Dead()
+     {
+         alive = false;
+         Destroy(gameObject);
+     }
 }
